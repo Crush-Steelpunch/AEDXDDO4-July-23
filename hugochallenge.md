@@ -1,6 +1,6 @@
 # Hugo Challenge
 
-1. Download hugo from <https://github.com/gohugoio/hugo/releases/download/v0.115.4/hugo_0.115.4_windows-amd64.zip>
+1. On Go2MyPC, download hugo from <https://github.com/gohugoio/hugo/releases/download/v0.115.4/hugo_0.115.4_windows-amd64.zip>
 2. unzip the file
 3. Open GitBash and run
 ```bash
