@@ -12,7 +12,7 @@ mkdir bin
 6. `git clone` the repo to your go2mypc
 7. `cd` into the repo folder and in GitBash run the following:
 ```bash
-hugo new site .
+hugo new site . --force
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 echo "theme = 'ananke'" >> hugo.toml
 git add .
