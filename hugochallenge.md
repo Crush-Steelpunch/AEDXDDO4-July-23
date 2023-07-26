@@ -13,9 +13,9 @@ mkdir bin
 7. `cd` into the repo folder and in GitBash run the following:
 ```bash
 hugo new site .
-git add .
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 echo "theme = 'ananke'" >> hugo.toml
+git add .
 git commit -m "Initial Commit"
 ```
 8. Follow the instructions from this step <https://gohugo.io/getting-started/quick-start/#add-content>
