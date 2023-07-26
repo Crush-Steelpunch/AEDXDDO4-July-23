@@ -1,0 +1,46 @@
+heading:
+  item1: "This is a string"
+  item2: 123
+    - listitem1
+    - listitem2
+    sublist:
+      - thing
+      - that
+      - other
+  item3: true
+
+people:
+  person:
+    name: "Leon Robinson"
+    likes:
+      - pies
+      - origami
+      - tea
+    Books:
+      - name: "SQL in a nutshel"
+        about: "Databases"
+        width: "fat"
+      - name: "Dinosaur Origami"
+        about: "paper folding"
+        width: "thin"
+      - name: "Computer Networks by Andrew Tanenbaum"
+        about: "Networking"
+        width: "fat"
+  jsoninyaml: {"Json":{"one":"formatted into a single line","2":"makes is all less readable"}}
+
+# Comment lines begin with a hash char
+
+advantages:
+  1: "supports typed data"
+  2: "complex Nested Hierachies"
+  3: "can be commented"
+  4: "can use json in the yaml file"
+  5: "Very readable"
+  6: Do not have to quote all your strings
+
+disadvantages:
+  1: "Has to be indented with spaces, not tabs"
+  2: "Difficult for machines to read"
+  3: "Some special chars do need to be quoted"
+
+  

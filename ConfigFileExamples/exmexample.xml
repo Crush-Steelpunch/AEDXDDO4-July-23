@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tag>
+    <!-- This is a comment, opens and with chevron and exclamation -->
+    <subsection1 key1=value1 key2=value2>
+         <metatag>
+         Something to describe the data
+         </metatag>
+    Data in the subsection
+    </subsection1>
+    </singlelinetag data=value inthetag=here>
+    
+</tag>
+
+<!-- advantages -->
+<point1>Very machine readable</point1>
+<point2>Supports a lot oh hieracy<point2>
+
+<!-- disadvantages -->
+<point1>Not very human readable</point1>
+<point2>Requires a lot of typing<point2>

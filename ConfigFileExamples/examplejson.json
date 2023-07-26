@@ -1,0 +1,29 @@
+{
+    "section": {
+        "subsection":{
+            "key": "Value",
+            "Boolean": true,
+            "IntegerNumber": 23,
+            "FloatNumber": 123.456,
+            "Wecannotdocomments": true,
+            "keyvalues": "Seperated by a comma"
+
+        }
+    }
+}
+
+{
+    "Advantages":{
+        "1": "Very machine readable",
+        "2": "Supports Hierachies",
+        "3": "Supports Typed Data",
+        "4": "Can be done all on one line"
+    },
+    "Disadvantages":{
+        "1": "No comment support",
+        "2": "I don't like curly braces",
+        "3": "not helpful in readability"
+    }
+}
+
+{"Json":{"one":"formatted into a single line","2":"makes is all less readable"}}
