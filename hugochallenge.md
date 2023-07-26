@@ -8,7 +8,7 @@ cd
 mkdir bin
 ```
 4. In Explorer copy the `hugo.exe` from the extracted folder to `C:\Users\Admin\bin`
-5. Create a new repo for your hugo site in Github (maybe call it hugo-site)
+5. Create a new repo for your hugo site in Github (with a readme) (maybe call it hugo-site)
 6. `git clone` the repo to your go2mypc
 7. `cd` into the repo folder and run the following:
 ```bash
