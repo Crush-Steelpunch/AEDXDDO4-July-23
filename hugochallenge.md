@@ -20,6 +20,6 @@ git commit -m "Initial Commit"
 ```
 8. Follow the instructions from this step <https://gohugo.io/getting-started/quick-start/#add-content>
 9. change any draft pages to `False`
-10. Push to Github
+10. Commit your changes and push to Github
 11. Follow these instuctions <https://gohugo.io/hosting-and-deployment/hosting-on-github/> to create the github pages and github actions.
 12. go wild with markdown and make a page to be proud of
