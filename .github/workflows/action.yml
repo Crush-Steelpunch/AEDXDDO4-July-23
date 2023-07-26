@@ -31,7 +31,7 @@ jobs:
       - name: Random linux commands you can run
         run: date
       - name: Install cal
-        run: apt update; apt install bsdmainutils -y
+        run: sudo apt update; sudo apt install bsdmainutils -y
       - name: Random linux commands you can run
         run: cal
       - name: Show me a joke
