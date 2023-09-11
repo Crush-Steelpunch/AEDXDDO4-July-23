@@ -86,3 +86,20 @@ floatvar2 = 1.23
 floatvar3 = 1.99  # this does not round up
 print(int(floatvar2))
 print(int(floatvar3))
+
+
+# Casting to Boolean
+
+integervar1 = 123        
+integervar2 = 0
+floatvar1 = -123.45       
+floatvar2 = 0
+stringvar1 = "20" 
+stringvar2 = ""   
+print(bool(integervar1))    # True
+print(bool(integervar2))    # False
+print(bool(floatvar1))      # True
+print(bool(floatvar2))      # False
+print(bool(stringvar1))     # True
+print(bool(stringvar2))     # False
+
