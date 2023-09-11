@@ -51,3 +51,24 @@ textVar2 = input('Type in an animal: ')
 print(textVar1 + textVar2)
 
 print(textVar1 + " typed in the animal " + textVar2)
+
+# numbers
+
+numvar1 = 15
+numvar2 = 12
+print(numvar1 + numvar2)
+
+# example 2
+
+
+awsomenessvar1 = input('Type your awesomeness level: ')
+print(30 + int(awsomenessvar1))
+
+# casting
+
+integervar = 123        # Integer
+floatvar = 123.45       # Float
+stringvar = "20" # String
+boolvar = True          # Boolean, no quotes, capitalized word
+
+print(30 + int(stringvar))
