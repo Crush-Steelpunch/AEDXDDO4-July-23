@@ -80,10 +80,9 @@ print("string" + str(30) + "another string") # This needs to be converted to wor
 print("string" , 30 , "another string")  # commas convert everything to a string
 # but also add spaces
 
+# casting to float
 
-
-
-
-
-
- 
+floatvar2 = 1.23
+floatvar3 = 1.99  # this does not round up
+print(int(floatvar2))
+print(int(floatvar3))
