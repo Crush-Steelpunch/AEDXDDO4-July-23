@@ -33,3 +33,13 @@ myVar1 = "I like pies"  # start vars with a lower case letter
 x = "somthing here"     # make variable names explain what they are for
 print(myVar1)
 print(x)
+
+
+# Input
+
+input()  # This will pause the program so you can type in
+
+inputString = input("Please Type in a word: ")  # store input in a var
+
+print(inputString) # print the contents of the var
+
