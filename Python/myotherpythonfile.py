@@ -72,3 +72,18 @@ stringvar = "20" # String
 boolvar = True          # Boolean, no quotes, capitalized word
 
 print(30 + int(stringvar))
+
+# Commas in the print statement
+
+print("string" + str(30) + "another string") # This needs to be converted to work
+
+print("string" , 30 , "another string")  # commas convert everything to a string
+# but also add spaces
+
+
+
+
+
+
+
+ 
