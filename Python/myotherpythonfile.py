@@ -43,3 +43,11 @@ inputString = input("Please Type in a word: ")  # store input in a var
 
 print(inputString) # print the contents of the var
 
+# Variable Manupulation
+
+textVar1 = input('Type in your name: ')
+textVar2 = input('Type in an animal: ')
+
+print(textVar1 + textVar2)
+
+print(textVar1 + " typed in the animal " + textVar2)
