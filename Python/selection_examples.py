@@ -49,4 +49,19 @@ elif inputvar < 1000:
 else:
     print("Your number is huuuuge")
 
+    # nesting if statements
+
+if inputvar < 1000:
+    if inputvar < 100:
+        if inputvar < 10:
+            print("You have a single digit number")
+        else:
+            print("You have a two diget number")
+    else: 
+        print("you have a three digit number")
+else:
+    print("Your number is huuuuuge")
+
+
+
 print("end program")
