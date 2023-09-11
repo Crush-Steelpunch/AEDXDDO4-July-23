@@ -3,6 +3,9 @@ This is a folder of python work
 # Exercise
 
 - open Git Bash and clone **your** repo from the previous module
+
+  `git clone <repourl>`
+
 - Edit the Readme
   - git add the changes
   - git commit the changes (you will need to set the git config for email and user)
