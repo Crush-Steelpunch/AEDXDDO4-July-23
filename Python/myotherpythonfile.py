@@ -24,3 +24,12 @@ floatvar = 123.45       # Float
 stringvar = "text here" # String
 boolvar = True          # Boolean, no quotes, capitalized words
 
+print(integervar)
+print(floatvar)
+print(stringvar)
+print(boolvar)
+
+myVar1 = "I like pies"  # start vars with a lower case letter
+x = "somthing here"     # make variable names explain what they are for
+print(myVar1)
+print(x)
