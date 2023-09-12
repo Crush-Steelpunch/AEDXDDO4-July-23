@@ -72,3 +72,28 @@ joinchar = ","
 shoppingliststr =  joinchar.join(shoppinglist)
 
 print(shoppingliststr)
+print(type(shoppingliststr))
+
+# converting strings to lists
+
+splitstr = "monitor,laptop,glass,ipad,mouse,webcam"
+newlist1 = splitstr.split(",")  # split the string on the commas to a list
+
+print(newlist1)
+print(type(newlist1))
+
+
+# the 'in' test
+
+list1 = ["sheep", "cow", "llama","pig","horse","dog","goat","chicken"]
+
+testanimal = input("ANIMAL: ")
+if testanimal in list1:
+    print("In list")
+else:
+    print("not in list")
+
+
+while testanimal not in list1:
+    print("No! guess again")
+    testanimal = input("ANIMAL: ")
