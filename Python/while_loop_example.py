@@ -37,7 +37,7 @@ while inputvar1 > 0:
 print('continue example')
 inputvar1 = int(input("Type in a number: "))
 while inputvar1 > 0:
-    inputvar1 = inputvar1 - 1
+    inputvar1 = inputvar1 - 1 # this needs to happen before the skip
     if inputvar1 == 13:
         continue          # Skipping a step in the loop
     print(inputvar1)
