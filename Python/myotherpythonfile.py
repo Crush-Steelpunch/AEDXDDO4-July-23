@@ -109,4 +109,4 @@ print(bool(stringvar2))     # False
 # finding the type of a variable
 
 print(type(integervar1))
-print(type(floatvar1)):W
+print(type(floatvar1))
