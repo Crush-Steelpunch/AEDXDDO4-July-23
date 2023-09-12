@@ -42,3 +42,5 @@ while inputvar1 > 0:
         continue          # Skipping a step in the loop
     print(inputvar1)
     
+# While loops are useful if you don't know how many
+# iterations something will take
