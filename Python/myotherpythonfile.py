@@ -1,5 +1,8 @@
 # this is a file for showing people how to do a python file
 
+from tkinter import W
+
+
 print("Hello Class")    # This is a line that will be run
 
 #         0101110111
@@ -103,3 +106,7 @@ print(bool(floatvar2))      # False
 print(bool(stringvar1))     # True
 print(bool(stringvar2))     # False
 
+# finding the type of a variable
+
+print(type(integervar1))
+print(type(floatvar1)):W
