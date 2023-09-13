@@ -12,7 +12,7 @@ def showTwo():   # This defines the function
 
 
 showTwo()    # This calls the function, to run it
-
+# Function with Input 
 
 
 def addTwo(inputvar):
@@ -24,3 +24,13 @@ def addTwo(inputvar):
 mynumber = input("Gimme number!: ")
 
 addTwo(mynumber)
+
+
+# Function with a return
+
+def doubler(inputvar):
+    return [inputvar,inputvar]
+
+doubleme = input("What shall I double?")
+listofdoubledthings  = doubler(doubleme)
+print(listofsoubledthings)
