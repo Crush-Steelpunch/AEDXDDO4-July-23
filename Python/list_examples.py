@@ -1,12 +1,12 @@
 # List
-#    Index Number: 0          1            2                3             4          5           
+#    Index Number: 0          1       2         3             4          5           
 shoppinglist = [ "Cake","Biscuits","cake", "biscuits", "cannedfish", "sparklingwater", "carrots", "potatoes" ]
 
 # python list of string objects
 
 oddnumlist = [ 1, 5 , 7, 9, 11 ]  # list of integers
 
-boollist = [True,False,False,True,True,False,True]
+boollist = [True,False,False,True,True,False,True] # list of Boolean
 
 print(["list", "of", "things"])
 
