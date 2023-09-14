@@ -25,3 +25,19 @@ sqlqueryvar = "INSERT INTO salesperson (emp_no,first_name,last_name,dept_no,sala
 insertresult = sql_query(sqlqueryvar)
 print(insertresult)
 
+# UPDATE statement
+
+# UPDATE <tablename> SET <col1name> = <value>, <col2name> = <value>,... WHERE <filter>
+# filter is made up of <col_name>  <test_charactor>  <value>
+
+sqlqueryvar = "UPDATE salesperson SET dept_no = 1, salary = 15 WHERE emp_no = 70"
+
+sql_query(sqlqueryvar)
+
+
+# DELETE Statement
+# DELETE FROM table_name WHERE condition; 
+
+sqlqueryvar = "DELETE FROM salesperson WHERE emp_no = 70"
+
+sql_query(sqlqueryvar)
