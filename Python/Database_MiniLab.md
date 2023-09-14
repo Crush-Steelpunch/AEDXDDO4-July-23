@@ -1,0 +1,13 @@
+# Database Mini Lab 1
+
+1. Install pyodbc
+	- View > Other Windows, Python Environment
+	- in dropdown select **Packages (pypy)**
+	- search for pyodbc
+	- click "run command pip install pyodbc"
+
+2. Copy the database_test_file.py from [Here](https://github.com/Crush-Steelpunch/AEDXDDO4-July-23/raw/main/Python/database_test_file.py)
+
+3. Run the file and check you can see the rows from the database
+
+
