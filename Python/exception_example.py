@@ -12,7 +12,7 @@ try:
     textfilevar = open('filethatdoesnotexist.txt')
     print('The File exists and I opened it')
     textfilevar.close()
-except Exception as e:
+except Exception as e:  # this will capture the error into a variable called 'e'
     print('It failed! because: ', e)
     textfilevar = open('filethatdoesnotexist.txt','w')
     textfilevar.close()
