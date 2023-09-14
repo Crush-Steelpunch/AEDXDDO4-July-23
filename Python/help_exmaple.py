@@ -1,2 +1,1 @@
-help(list)
-help(tuple)
+help(str)
