@@ -19,7 +19,7 @@ def addTwo(inputvar):
     if inputvar.isnumeric():
         print(int(inputvar) + 2)
     else:
-        print("You didn't give me a number!")
+        print("You didn't give me a number!") 
 
 mynumber = input("Gimme number!: ")
 
@@ -33,4 +33,11 @@ def doubler(inputvar):
 
 doubleme = input("What shall I double?")
 listofdoubledthings  = doubler(doubleme)
-print(listofsoubledthings)
+print(listofdoubledthings)
+
+
+# importing your own functions
+
+import leon_module
+
+print(leon_module.testispalindrome('racecar'))

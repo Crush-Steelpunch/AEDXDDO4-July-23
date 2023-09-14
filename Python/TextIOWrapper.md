@@ -17,3 +17,13 @@
  |      lines will be read if the total size (in bytes/characters) of all
  |      lines so far exceeds hint.
  |
+ |  close(self, /)
+ |      Flush and close the IO object.
+ |
+ |      This method has no effect if the file is already closed.
+ |
+ |  write(self, text, /)
+ |      Write string to stream.
+ |      Returns the number of characters written (which is always equal to
+ |      the length of the string).
+    writelines(self, lines, /)
