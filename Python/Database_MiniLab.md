@@ -19,3 +19,12 @@ Using the below information create SELECT statments using the WHERE clause with:
 - <
 - IN
 - =
+
+
+# Lab
+
+## The Slide Code
+
+```sql
+CREATE TABLE Student ( StudentID int NOT NULL, FirstName nvarchar(40) NOT NULL, Surname nvarchar(30) NULL, Course nvarchar(30) NULL, City nvarchar(15) NULL )
+```
