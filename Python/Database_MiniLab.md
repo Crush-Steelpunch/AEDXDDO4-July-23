@@ -11,3 +11,11 @@
 3. Run the file and check you can see the rows from the database
 
 
+# Mini Lab  2
+
+Using the below information create SELECT statments using the WHERE clause with:
+- BETWEEN
+- LIKE
+- <
+- IN
+- =
