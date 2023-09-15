@@ -1,3 +1,5 @@
+import pyodbc
+
 def maxthreenumbers(in1,in2,in3):
     if in1 > in2:
         if in1 > in3:
@@ -77,3 +79,22 @@ def isperfectnum(in1):
         return False
 
 
+    
+def sqlquery(sqlvar):
+    connectionString = r'DRIVER={ODBC Driver 13 for SQL Server};SERVER=.\SQLExpress;DATABASE=qastore;Trusted_Connection=yes'
+    conn = pyodbc.connect(connectionString)
+    cur = conn.cursor()
+    if sqlvar.startswith('SELECT'):
+        try:
+            result = cur.execute(sqlvar).fetchall()
+        except Exception as e:
+            result = e
+    else:
+        try:
+            cur.execute(sqlvar)
+            result = 'Success'
+            conn.commit()
+        except Exception as e:
+            result = e
+    cur.close()
+    return result
