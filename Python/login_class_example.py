@@ -6,27 +6,35 @@
 
 class Login:
 
-    username = "user1"
-    password = "pawssord"
-    server = "server.com"
+
+    def __init__(self,passeduser,passedpw,passedserver):
+        self.username = passeduser
+        self.password = passedpw
+        self.server = passedserver
 
     def login(self):
         print("You have logged in to: ", self.server, "as: ", self.username )
 
     def emailcheck(self):
-        print("You got mail in: ", self.server)
+        self.login()
+        return "You got mail in: " + self.server 
 
-gmail = Login()
-gmail.username = "leon"
-gmail.server = "gmail.com"
-
-
-hotmail = Login()
-hotmail.username = "bowtieguy2023"
-yahoo = Login()
-yahoo.server = "yahoo.co.uk"
+    def privacyviolation(self,otheraccount):
+        otheraccountdata = [otheraccount.username,otheraccount.password,otheraccount.server]
+        otheraccount.login()
+        return otheraccountdata
 
 
+gmail = Login("leon","password123","gmail.com")
+hotmail = Login("lr","np8954n6vp954456vpy79n","hotmail.com")
+yahoo = Login("bowtieguy2001","1234","yahoo.com")
 
-print(yahoo.emailcheck())
+print(yahoo.emailcheck())  # running the function in the copies from the class
 print(gmail.emailcheck())
+
+print(yahoo)    # print the 'id' of the class, they will be unique
+print(gmail)
+print(hotmail)
+
+print(gmail.privacyviolation(yahoo))
+gmail.privacyviolation(yahoo)
