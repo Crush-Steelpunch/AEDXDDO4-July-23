@@ -9,6 +9,7 @@ class Budget:
   def depost(self):
     pass
   def withdraw(self):
+    pass
 
 
 food = Budget()
