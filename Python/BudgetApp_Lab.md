@@ -38,6 +38,13 @@ Dice Class
 
 Goal: “Create a lottery ball, or Hat, that takes a variable number of arguments that specify the number of balls of each color that are in the hat. Give the object the ability to pick a random number of balls from the hat, which will then be used to compute the probability of picking a certain distribution of balls over a large number of experiments”
 
+
+### Polygon
+
+Goal: “Create class and sub-class objects which represent different geometrical shapes, such as Rectangles and Squares”
+
+objects should have methods to display area and perimeter
+
 ### Links
 
 (https://w3resource.com/python-exercises/class-exercises/index.php)
