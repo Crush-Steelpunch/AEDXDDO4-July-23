@@ -1,6 +1,5 @@
 # this is a file for showing people how to do a python file
-
-from tkinter import W
+""" This is an exmple code exercise """
 
 
 print("Hello Class")    # This is a line that will be run
@@ -10,9 +9,9 @@ print("Hello Class")    # This is a line that will be run
 # Could be a telebphone number
 # Could be a decimal value of money
 # Could be an ip address
-# 
+#
 
-# Data typing 
+# Data typing
 # - Integer, any whole number , e.g 1, -15 101,110,111
 # - Floating, any fractional number, e.g 1.0, -15.5. 101.110111
 # - String, alphanumeric text e.g. 'cat' 'Dinosaur2055', '01 110 1111'
@@ -20,7 +19,7 @@ print("Hello Class")    # This is a line that will be run
 
 
 
-varname = 'value'  
+varname = 'value'
 
 integervar = 123        # Integer
 floatvar = 123.45       # Float
@@ -32,10 +31,10 @@ print(floatvar)
 print(stringvar)
 print(boolvar)
 
-myVar1 = "I like pies"  # start vars with a lower case letter
-x = "somthing here"     # make variable names explain what they are for
-print(myVar1)
-print(x)
+myvar1 = "I like pies"  # start vars with a lower case letter
+varx = "somthing here"     # make variable names explain what they are for
+print(myvar1)
+print(varx)
 
 
 # Input
@@ -93,12 +92,12 @@ print(int(floatvar3))
 
 # Casting to Boolean
 
-integervar1 = 123        
+integervar1 = 123
 integervar2 = 0
-floatvar1 = -123.45       
+floatvar1 = -123.45
 floatvar2 = 0
-stringvar1 = "20" 
-stringvar2 = ""   
+stringvar1 = "20"
+stringvar2 = ""
 print(bool(integervar1))    # True
 print(bool(integervar2))    # False
 print(bool(floatvar1))      # True
