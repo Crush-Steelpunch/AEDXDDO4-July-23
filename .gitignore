@@ -4,3 +4,6 @@
 
 /.vs
 /Python/__pycache__
+/pyapp/appcode/__pycache__
+/pyapp/test_appcode/__pycache__
+/pyapp/.coverage
