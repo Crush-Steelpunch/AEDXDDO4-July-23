@@ -23,13 +23,15 @@ def reverseastring(in1):
 def testisprime(in1):
     counter = 2
     moduloresult = 1
-    while moduloresult != 0:
-        counter += 1
-        moduloresult = in1%counter
-    if counter == in1:
-        return True
-    else:
-        return False
+    if in1 > 2:
+        while moduloresult != 0:
+            counter += 1
+            moduloresult = in1%counter
+        if counter == in1:
+            return True
+        else:
+            return False
+    return False
 
 def testispalindrome(in1):
     revword = reverseastring(in1)
